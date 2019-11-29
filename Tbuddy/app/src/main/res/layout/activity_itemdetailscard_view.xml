@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context=".Food_Module.itemdetailscard_view"
+    android:orientation="vertical">
+
+<androidx.cardview.widget.CardView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@android:color/white"
+        />
+
+    <LinearLayout
+        android:layout_width="400dp"
+        android:layout_height="300dp">
+        <ImageView
+            android:layout_width="400dp"
+            android:layout_height="300dp"
+            android:src="@drawable/bourn_bon"
+            android:scaleType="fitXY"
+            android:id="@+id/cardimage">
+        </ImageView>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="400dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="300dp">
+        <TextView
+            android:layout_width="400dp"
+            android:layout_height="40dp"
+            android:text="dndn"
+            android:textSize="20dp"
+            android:paddingLeft="30dp"
+            android:textStyle="bold"
+            android:id="@+id/carditem"
+            >
+        </TextView>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="400dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="340dp">
+        <TextView
+            android:layout_width="400dp"
+            android:layout_height="40dp"
+            android:text="40"
+            android:textSize="20dp"
+            android:paddingLeft="30dp"
+            android:textStyle="bold"
+            android:id="@+id/carditemprice"
+            >
+
+        </TextView>
+    </LinearLayout>
+    <LinearLayout
+    android:layout_width="400dp"
+    android:layout_height="40dp"
+    android:layout_marginTop="380dp">
+    <EditText
+        android:layout_width="130dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="40dp"
+        android:text=""
+        android:id="@+id/carditemquant">
+
+    </EditText>
+
+</LinearLayout>
+    <LinearLayout
+        android:layout_width="400dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="380dp">
+        <Button
+            android:layout_width="130dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="190dp"
+            android:text="ADD"
+            android:background="@android:color/holo_green_dark"
+            android:id="@+id/carditemadd">
+
+        </Button>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="400dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="590dp">
+        <Button
+            android:id="@+id/vieworder"
+            android:layout_width="400dp"
+            android:layout_height="50dp"
+            android:text="View Order"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:background="@android:color/holo_orange_light"></Button>
+    </LinearLayout>
+</androidx.cardview.widget.CardView>
+</androidx.core.widget.NestedScrollView>

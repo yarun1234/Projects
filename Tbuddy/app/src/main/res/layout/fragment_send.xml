@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:background="@drawable/citybackground"
+    android:layout_height="match_parent"
+    >
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/citybackground"
+        >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@drawable/citybackground"
+
+        >
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="In the Guidance of"
+        android:textSize="30dp"
+        android:textColor="#FFFF"
+        style="@style/AppTheme"
+        android:textStyle="bold"
+        ></TextView>
+
+        <TextView
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:background="@drawable/mam"
+            android:layout_gravity="center"
+            ></TextView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ms. Tejashwini A G"
+            style="@style/AppTheme"
+            android:textSize="20dp"
+            android:layout_gravity="center"
+            android:textColor="#FFFF"
+            ></TextView>
+
+    </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+
+
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Developed By"
+                android:textSize="25dp"
+                android:textColor="#FFFF"
+                android:layout_marginTop="290dp"
+                style="@style/AppTheme"
+                android:layout_gravity="center"
+                ></TextView>
+
+        </LinearLayout>
+
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+
+
+
+            >
+            <TextView
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:text="Arun Yadv"
+                android:textColor="#FFFF"
+                android:textSize="25dp"
+                style="@style/AppTheme"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="480dp"
+                >
+            </TextView>
+            <TextView
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:text="   Hitesh"
+                android:textColor="#FFFF"
+                android:textSize="25dp"
+                style="@style/AppTheme"
+                android:layout_marginTop="480dp"
+                android:layout_marginLeft="50dp"
+                >
+            </TextView>
+
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+
+
+            >
+            <TextView
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:background="@drawable/arun"
+                android:layout_marginTop="350dp"
+                >
+            </TextView>
+            <TextView
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+               android:background="@drawable/hitesh2"
+                android:layout_marginLeft="50dp"
+                android:layout_marginTop="350dp"
+                >
+            </TextView>
+
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+
+
+            >
+            <TextView
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:background="@drawable/anupam"
+                android:layout_marginTop="550dp"
+                >
+            </TextView>
+            <TextView
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:background="@drawable/gullu"
+                android:layout_marginLeft="50dp"
+                android:layout_marginTop="550dp"
+                >
+            </TextView>
+
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="300dp"
+
+
+
+            >
+            <TextView
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:text="Anupam"
+                android:textColor="#FFFF"
+                android:textSize="25dp"
+                style="@style/AppTheme"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="400dp"
+                >
+            </TextView>
+            <TextView
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:text="Gulshan"
+                android:textColor="#FFFF"
+                android:textSize="25dp"
+                style="@style/AppTheme"
+                android:layout_marginTop="400dp"
+                android:layout_marginLeft="50dp"
+                >
+            </TextView>
+
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="750dp"
+            android:orientation="vertical"
+
+
+            >
+
+            <TextView
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:background="@drawable/ashu"
+
+                ></TextView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="  Ashutosh"
+                android:textSize="25dp"
+
+                style="@style/AppTheme"
+                android:textColor="#FFFF"
+
+                ></TextView>
+
+
+
+        </LinearLayout>
+
+
+
+
+
+
+
+
+
+</androidx.cardview.widget.CardView>
+
+
+
+
+
+
+
+
+
+
+</androidx.core.widget.NestedScrollView>

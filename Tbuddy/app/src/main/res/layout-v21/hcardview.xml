@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="#000000"
+    >
+
+
+    <androidx.cardview.widget.CardView
+    android:id="@+id/card"
+
+    android:layout_width="407dp"
+    android:layout_height="176dp"
+    android:layout_marginStart="5dp"
+    android:layout_marginLeft="5dp"
+    android:layout_marginTop="5dp"
+    android:layout_marginEnd="5dp"
+    android:layout_marginRight="5dp"
+    android:layout_marginBottom="5dp"
+    android:orientation="vertical"
+    android:padding="1dp"
+        android:background="#000000"
+
+
+    app:cardCornerRadius="10dp"
+    app:cardElevation="1dp"
+    app:cardMaxElevation="0dp"
+    app:cardPreventCornerOverlap="false"
+    app:cardUseCompatPadding="true"
+    app:contentPadding="0dp">
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        android:layout_marginLeft="140dp"
+        android:background="@drawable/color4"
+        android:orientation="vertical"
+        android:padding="8dp">
+
+        <TextView
+            android:id="@+id/textViewTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+
+            android:text="Hotel Poonja indore"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"
+
+            android:textColor="#FFFF"
+            android:textSize="20dp" />
+
+
+        <TextView
+            android:id="@+id/textViewShortDesc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/textViewTitle"
+            android:layout_marginLeft="5dp"
+            android:textColor="#FFFF"
+
+            android:text="indore"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"
+            android:textSize="17dp" />
+
+        <TextView
+            android:id="@+id/textViewRating"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="0dp"
+            android:layout_marginTop="0dp"
+            android:text="* * * * *"
+            android:textColor="@color/colorAccent"
+            android:textSize="30dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textViewPrice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/textViewRating"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="0dp"
+            android:textSize="20dp"
+            android:text="$29"
+            android:textColor="#FFFF"
+            />
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/textViewRating"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="0dp"
+
+            android:text="Avg/night"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+            android:textColor="#FFFF"
+            />
+
+
+
+    </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="142dp"
+            android:layout_marginTop="98dp"
+
+
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Rs. "
+                android:textColor="#FFFF"
+                android:textSize="20dp"
+
+                ></TextView>
+
+
+        </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+
+
+        >
+
+        <TextView
+            android:id="@+id/button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/textViewRating"
+            android:layout_marginLeft="265dp"
+            android:layout_marginTop="140dp"
+            android:background="@drawable/color4"
+            android:textStyle="bold"
+
+            android:text="   book now"
+            android:textSize="20dp"
+
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+            android:textColor="#FFFFFF" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="140dp"
+        android:layout_height="180dp"
+        android:layout_marginTop="0dp"
+        android:background="@drawable/color2"
+
+        >
+
+        <ImageView
+            android:id="@+id/RimageView"
+            android:layout_width="140dp"
+            android:layout_height="180dp"
+            android:adjustViewBounds="true"
+            android:layout_marginLeft="0dp"
+            android:padding="4dp"
+            android:scaleType="fitXY"
+            android:fitsSystemWindows="true"
+
+            />
+
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>
+
+
+</RelativeLayout>

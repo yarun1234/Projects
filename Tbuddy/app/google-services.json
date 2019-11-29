@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "654045697935",
+    "firebase_url": "https://arun-f049b.firebaseio.com",
+    "project_id": "arun-f049b",
+    "storage_bucket": "arun-f049b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:654045697935:android:6221635f4aee008b",
+        "android_client_info": {
+          "package_name": "com.example.arun"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "654045697935-9cqjr4mq8pnfilr9dnqkishdbop7134c.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.arun",
+            "certificate_hash": "7832a2995ac55014ed948b0a404481c31321e7ad"
+          }
+        },
+        {
+          "client_id": "654045697935-0r5lnct792vdqu1jo0vefpc2cp7rson8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBRqWlAn_bU3d89a-oDVRZfdSkwX3lEI28"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "654045697935-0r5lnct792vdqu1jo0vefpc2cp7rson8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

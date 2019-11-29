@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Food_Module.orderplaced">
+
+    <LinearLayout
+        android:layout_width="390dp"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <ImageView
+            android:layout_width="390dp"
+            android:layout_height="300dp"
+            android:src="@drawable/orderplaced"></ImageView>
+        <TextView
+            android:id="@+id/addressview"
+            android:layout_width="390dp"
+            android:layout_height="100dp"
+            android:layout_marginTop="5dp"
+           android:textColor="@android:color/black"
+            android:textSize="20dp"
+            android:textStyle="normal"
+            android:paddingTop="20dp"
+            android:paddingLeft="30dp"
+            android:text="address">
+
+        </TextView>
+        <Button
+            android:id="@+id/btnorderlist"
+            android:layout_width="150dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="120dp"
+            android:background="@android:color/holo_orange_light"
+            android:text="VIEW ORDER"
+            android:layout_marginTop="30dp"></Button>
+
+        <TextView
+            android:layout_width="390dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="15dp"
+            android:textAlignment="center"
+            android:textSize="20dp"
+            android:textStyle="italic"
+            android:background="@android:color/holo_green_light"
+            android:text="YOUR ORDER HAS BEEN PLACED">
+
+        </TextView>
+        <Button
+            android:id="@+id/done"
+            android:layout_width="100dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="150dp"
+            android:background="@android:color/holo_blue_light"
+            android:text="DONE"
+            android:layout_marginTop="30dp"></Button>
+
+    </LinearLayout>
+</RelativeLayout>

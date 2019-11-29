@@ -1,0 +1,281 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".ui.Feedback.Fragment_Feedback">
+
+    <!-- TODO: Update blank fragment layout -->
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/feedbackload"
+        android:layout_width="56dp"
+        android:layout_height="56dp"
+        android:layout_gravity="center"
+        app:lottie_loop="true"
+        app:lottie_autoPlay="true"
+        app:lottie_fileName="standardloader.json"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            >
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/c1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="15dp"
+                android:elevation="10dp"
+                android:padding="25dp"
+                app:cardCornerRadius="10dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/igniteSecondaryLight"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="20dp"
+                        android:text="IGNITE"
+                        android:textColor="@color/lime"
+                        android:textSize="18sp"
+                        android:textStyle="bold" />
+
+                    <com.hsalf.smilerating.SmileRating
+                        android:id="@+id/smile_rating_Ignite"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
+                        android:textColor="@color/contrasText" />
+
+
+                    <me.zhanghai.android.materialedittext.MaterialTextInputLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="20dp"
+
+                        android:textColorHint="@color/contrasText">
+
+                        <me.zhanghai.android.materialedittext.MaterialEditText
+                            android:id="@+id/username_editText"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:hint="your views..."
+                            android:textColor="@color/contrasText"
+
+                            >
+
+                        </me.zhanghai.android.materialedittext.MaterialEditText>
+
+                    </me.zhanghai.android.materialedittext.MaterialTextInputLayout>
+
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/c2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="15dp"
+                android:elevation="10dp"
+                android:padding="25dp"
+                app:cardCornerRadius="10dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/igniteSecondaryLight"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="20dp"
+                        android:text="Website"
+                        android:textColor="@color/lime"
+                        android:textSize="18sp"
+                        android:textStyle="bold" />
+
+                    <com.hsalf.smilerating.SmileRating
+                        android:id="@+id/smile_rating_website"
+                        android:layout_width="match_parent"
+
+                        android:layout_height="wrap_content"
+
+                        android:textColor="@color/contrasText" />
+
+
+                    <me.zhanghai.android.materialedittext.MaterialTextInputLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="20dp"
+                        android:textColorHint="@color/contrasText"
+
+                        >
+
+                        <me.zhanghai.android.materialedittext.MaterialEditText
+                            android:id="@+id/website_desc_tv"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_margin="10dp"
+                            android:hint="your views..."
+                            android:textColor="@color/contrasText">
+
+                        </me.zhanghai.android.materialedittext.MaterialEditText>
+
+                    </me.zhanghai.android.materialedittext.MaterialTextInputLayout>
+
+                </LinearLayout>
+
+
+            </androidx.cardview.widget.CardView>
+
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/c3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="15dp"
+                android:elevation="10dp"
+                android:padding="25dp"
+                app:cardCornerRadius="10dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/igniteSecondaryLight"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="20dp"
+                        android:text="Android App"
+                        android:textColor="@color/lime"
+                        android:textSize="18sp"
+                        android:textStyle="bold" />
+
+                    <com.hsalf.smilerating.SmileRating
+                        android:id="@+id/smile_rating_app"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/contrasText" />
+
+                    <me.zhanghai.android.materialedittext.MaterialTextInputLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="20dp"
+                        android:textColorHint="@color/contrasText"
+
+                        >
+
+                        <me.zhanghai.android.materialedittext.MaterialEditText
+                            android:id="@+id/app_desc_tv"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_margin="10dp"
+                            android:hint="your views..."
+                            android:textColor="@color/contrasText">
+
+                        </me.zhanghai.android.materialedittext.MaterialEditText>
+
+                    </me.zhanghai.android.materialedittext.MaterialTextInputLayout>
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/c4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="15dp"
+                android:elevation="10dp"
+                android:padding="25dp"
+                app:cardCornerRadius="10dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/igniteSecondaryLight"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="20dp"
+                        android:text="Hospitality"
+                        android:textColor="@color/lime"
+                        android:textSize="18sp"
+                        android:textStyle="bold" />
+
+                    <com.hsalf.smilerating.SmileRating
+                        android:id="@+id/smile_rating_hospitality"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/contrasText" />
+
+                    <me.zhanghai.android.materialedittext.MaterialTextInputLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="20dp"
+                        android:textColorHint="@color/contrasText"
+
+                        >
+
+                        <me.zhanghai.android.materialedittext.MaterialEditText
+                            android:id="@+id/hospitality_desc_tv"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_margin="10dp"
+                            android:hint="your views..."
+                            android:textColor="@color/contrasText"
+
+                            android:textColorHint="@color/contrasText">
+
+                        </me.zhanghai.android.materialedittext.MaterialEditText>
+
+                    </me.zhanghai.android.materialedittext.MaterialTextInputLayout>
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+
+            <Button
+                android:id="@+id/feedback_submit_btn"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+
+                android:layout_margin="20dp"
+                android:background="@drawable/button_shape"
+                android:text="Submit"
+                android:textColor="@color/contrasText" />
+
+        </LinearLayout>
+    </ScrollView>
+</FrameLayout>

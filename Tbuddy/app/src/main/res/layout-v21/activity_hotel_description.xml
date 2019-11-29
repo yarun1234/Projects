@@ -1,0 +1,308 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:layout_marginTop="0dp"
+    tools:context=".Hotel_module.hotel_description">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        >
+      <LinearLayout
+          android:layout_width="match_parent"
+          android:layout_height="match_parent"
+          android:orientation="horizontal"
+          android:background="@drawable/color4"
+          >
+
+
+        <ImageView
+            android:id="@+id/imagedes"
+            android:layout_width="match_parent"
+            android:layout_height="232dp"
+            android:src="@drawable/hit"
+            android:scaleType="fitXY"
+
+            ></ImageView>
+
+
+      </LinearLayout>
+
+        <TextView
+            android:id="@+id/hotelnamedes"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=" OYO 22440 RACHANABOARDING AND LOADING"
+            android:textStyle="bold"
+            android:textColor="#000000"
+            android:layout_marginTop="250dp"
+            android:textSize="20dp"
+
+            ></TextView>
+
+
+         <TextView
+             android:id="@+id/hotelrating"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:text="* * * *"
+             android:layout_marginTop="300dp"
+             android:textColor="#ff0006"
+             android:textSize="25dp"
+             android:layout_marginLeft="10dp"
+
+
+             ></TextView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Rs."
+            android:layout_marginTop="320dp"
+            android:textSize="25dp"
+            style="@style/AppTheme"
+            android:layout_marginLeft="230dp"
+
+            ></TextView>
+
+
+
+
+
+         <TextView
+             android:id="@+id/hotelprice"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:text="   800"
+             android:layout_marginTop="320dp"
+             android:textStyle="bold"
+             android:textColor="#000000"
+             android:layout_marginLeft="260dp"
+             android:textSize="25dp"
+             >:</TextView>
+
+           <TextView
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:text="                            for 1 night \n    including taxes and fees"
+               android:layout_marginTop="350dp"
+               android:textColor="#000000"
+               android:layout_marginLeft="160dp"
+               android:textSize="15dp"
+               ></TextView>
+
+           <TextView
+               android:id="@+id/booknow"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="BOOK NOW"
+               android:background="#0009ff"
+               android:padding="5dp"
+               android:textColor="#FFFFFF"
+               android:layout_marginTop="395dp"
+               android:layout_marginLeft="260dp"
+
+               >
+
+           </TextView>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="#c0c0c0"
+            android:layout_marginTop="450dp"
+
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="470dp"
+            android:text="Main Amenities"
+            android:textSize="20dp"
+            android:textColor="#000000"
+            style="@style/AppTheme"
+            >
+        </TextView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="495dp"
+            android:text="    1. Free WiFi and free parking \n    2. 27 smoke-free apartments \n    3. Daily housekeeping  "
+            style="@style/AppTheme"
+
+            ></TextView>
+
+
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="#c0c0c0"
+            android:layout_marginTop="560dp"
+
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="570dp"
+            android:text="Feel at home"
+            android:textSize="20dp"
+            android:textColor="#000000"
+            style="@style/AppTheme"
+            >
+        </TextView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="595dp"
+            android:text="    1. Private bathroom \n    2. Free toiletries \n    3. Bathtub or shower  "
+            style="@style/AppTheme"
+
+            ></TextView>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="#c0c0c0"
+            android:layout_marginTop="660dp"
+
+            />
+
+
+
+         <TextView
+             android:id="@+id/share"
+             android:layout_width="30sp"
+             android:layout_height="30sp"
+             android:background="@drawable/shareicon"
+             android:layout_marginTop="670dp"
+             android:layout_marginLeft="20dp"
+             ></TextView>
+
+        <TextView
+            android:id="@+id/call"
+            android:layout_width="28sp"
+            android:layout_height="28sp"
+            android:background="@drawable/phone"
+            android:layout_marginTop="670dp"
+            android:layout_marginLeft="70dp"
+            ></TextView>
+
+        <TextView
+            android:id="@+id/moredetails"
+            android:layout_width="match_parent"
+            android:layout_height="28sp"
+            android:text="MORE DETAILS"
+            android:layout_marginTop="673dp"
+            android:layout_marginLeft="220dp"
+            android:textColor="#0009ff"
+            android:textSize="15dp"
+            ></TextView>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="#c0c0c0"
+            android:layout_marginTop="700dp"
+
+
+            />
+
+
+
+        <LinearLayout
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="720dp"
+            android:layout_marginLeft="15dp"
+            android:background="@drawable/color4"
+            android:orientation="vertical"
+            >
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Location"
+                style="@style/AppTheme"
+                android:textSize="25dp"
+
+                ></TextView>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="  0.8 mill from currant location"
+                 style="@style/AppTheme"
+                android:layout_marginTop="3dp"
+
+
+                ></TextView>
+
+            <ImageView
+                android:id="@+id/locationimage"
+                android:layout_width="233dp"
+                android:layout_height="120sp"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/loc"
+
+
+                ></ImageView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:text="12, Ring Rd, Scheme No 94 Sector Ea, Indore, Madhya Pradesh 452010"
+                style="@style/AppTheme"
+                >
+            </TextView>
+
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:background="#c0c0c0"
+                android:layout_marginTop="10dp"
+
+
+                />
+
+
+
+            <TextView
+                android:id="@+id/seeall"
+                android:layout_width="match_parent"
+                android:layout_height="28sp"
+                android:text="SEE ALL"
+                android:layout_marginTop="20dp"
+                android:textStyle="bold"
+                android:layout_marginLeft="120dp"
+                android:textColor="#0009ff"
+                android:textSize="20dp"
+                ></TextView>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:background="#c0c0c0"
+                android:layout_marginTop="10dp"
+
+
+                />
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+
+
+
+
+</androidx.core.widget.NestedScrollView>

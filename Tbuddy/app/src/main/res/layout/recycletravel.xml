@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/trevelcardviewid"
+        android:layout_width="350dp"
+        android:layout_height="170dp"
+
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="30dp"
+        app:cardCornerRadius="40dp">
+
+        <ImageView
+            android:id="@+id/Rimageid"
+            android:layout_width="350dp"
+            android:layout_height="170dp"
+            android:scaleType="fitXY"></ImageView>
+
+        <TextView
+                android:id="@+id/titleid"
+                android:layout_width="250dp"
+                android:layout_height="25dp"
+                android:layout_marginTop="130dp"
+                android:layout_weight="1"
+               android:textSize="20dp"
+               android:textColor="#ffffff"
+                android:layout_marginLeft="20dp"
+                android:text="Banglore Palace" />
+
+        <TextView
+            android:id="@+id/travel_placename_id"
+            android:layout_width="1dp"
+            android:layout_height="9dp"
+            android:layout_marginLeft="290dp"
+            android:layout_marginTop="130dp"
+            android:layout_weight="1"
+            android:text="Banglore Palace"
+            android:textColor="#ffffff"
+            android:textSize="20dp" />
+
+
+
+
+
+
+    </androidx.cardview.widget.CardView>
+
+
+</ScrollView>

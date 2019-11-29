@@ -1,0 +1,1 @@
+This event is database round.Event has two rounds.First round is written and the second round will have some SQL queries.

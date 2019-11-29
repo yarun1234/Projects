@@ -1,0 +1,405 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFF9FA"
+    tools:context=".Hotel_module.hotel_form">
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#FFF9FA"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:background="@drawable/color4"
+            >
+
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:background="#c0c0c0"
+                android:layout_marginTop="0dp"
+
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Step 1 : Cheack details"
+                style="@style/AppTheme"
+                android:textStyle="bold"
+                android:textSize="25dp"
+                ></TextView>
+
+
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:background="#c0c0c0"
+                android:layout_marginTop="0dp"
+
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="52dp"
+>
+
+            <ImageView
+
+                android:id="@+id/fomrimage"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:src="@drawable/hit"
+                ></ImageView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="310dp"
+            android:orientation="vertical"
+            >
+            <TextView
+                android:id="@+id/formhotelname"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=" Hotel redision"
+                android:textStyle="bold"
+                style="@style/AppTheme"
+                android:textSize="25dp"
+                ></TextView>
+
+             <TextView
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+                 android:text="  indore IN"
+                 style="@style/AppTheme"
+                 android:textSize="15dp"
+
+                 ></TextView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="370dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="390dp"
+            android:layout_marginLeft="10dp"
+            android:orientation="vertical"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+
+                android:text="Check in date -"
+                android:textStyle="bold"
+                style="@style/AppTheme"
+                android:textSize="20dp"
+                ></TextView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                    android:layout_marginTop="40dp"
+                android:text="Check out date -"
+                android:textStyle="bold"
+                style="@style/AppTheme"
+                android:textSize="20dp"
+                ></TextView>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="390dp"
+            android:orientation="vertical"
+
+
+            >
+
+            <EditText
+                android:id="@+id/checkindate"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="170dp"
+
+                ></EditText>
+
+            <EditText
+                android:id="@+id/chechoutdate"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="170dp"
+                android:layout_marginTop="20dp"
+
+                ></EditText>
+
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:background="#c0c0c0"
+                android:layout_marginTop="5dp"
+                style="@style/AppTheme"
+
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="550dp"
+            >
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:background="#c0c0c0"
+                android:layout_marginTop="5dp"
+                style="@style/AppTheme"
+
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Step 1 : Room details"
+                style="@style/AppTheme"
+                android:textStyle="bold"
+                android:textSize="25dp"
+                ></TextView>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:background="#c0c0c0"
+                android:layout_marginTop="5dp"
+                style="@style/AppTheme"
+
+                />
+
+
+            <EditText
+                android:id="@+id/fnameform"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:hint="First name"
+                android:textSize="20sp"
+                tools:ignore="InvalidId" />
+            <EditText
+                android:id="@+id/lnameform"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:hint="Last Name"
+                android:textSize="20sp" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="preferance"
+                style="@style/AppTheme"
+                android:textSize="20dp"
+                ></TextView>
+
+            <EditText
+                android:id="@+id/acnonac"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:hint="AC/NON_AC"
+                android:textSize="20sp" />
+
+
+             <androidx.appcompat.widget.AppCompatCheckBox
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 >
+             </androidx.appcompat.widget.AppCompatCheckBox>
+
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:layout_marginTop="795dp"
+
+            >
+            <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="smoking"
+                android:layout_marginTop="25dp"
+            android:layout_marginLeft="35dp"
+            >
+            </TextView>
+
+
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="870dp"
+            >
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:background="#c0c0c0"
+                android:layout_marginTop="0dp"
+                style="@style/AppTheme"
+
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Step 3 : Your details"
+                style="@style/AppTheme"
+                android:textStyle="bold"
+                android:textSize="25dp"
+                ></TextView>
+
+
+            <EditText
+              android:id="@+id/formemail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="0dp"
+                android:hint="email"
+                android:textSize="20sp" />
+
+            <EditText
+                   android:id="@+id/formcontact"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="05dp"
+                android:hint="contact number"
+                android:textSize="20sp" />
+
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:background="#c0c0c0"
+                android:layout_marginTop="10dp"
+                style="@style/AppTheme"
+
+                />
+
+
+        </LinearLayout>
+
+
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="1030dp"
+            >
+
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="25dp"
+                android:layout_marginTop="10dp"
+                style="@style/AppTheme"
+                android:text="Cancellation policy"
+                ></TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:text="This rate is non refundable and can not be charged or cancelled if you do choose to change or cancell this booking you will not be refunded any of the payment"
+                ></TextView>
+
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:background="#c0c0c0"
+                android:layout_marginTop="10dp"
+                style="@style/AppTheme"
+
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Terms of Booking"
+                android:textSize="25dp"
+                style="@style/AppTheme"
+                ></TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="In case suitable proof of identification is not presented at check in, the accommodation can be declined to guests posing as a couple. Yatra will not be responsible for any check in declined by the hotel due to the aforesaid reason and Yatra.com shall not be able to process any refund."
+                 android:layout_marginLeft="10dp"
+                ></TextView>
+
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:background="#c0c0c0"
+                android:layout_marginTop="10dp"
+                style="@style/AppTheme"
+
+                />
+
+            <TextView
+                android:id="@+id/confirm"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Agree and Confirm"
+                android:background="#0009ff"
+                android:padding="5dp"
+                android:textColor="#FFFFFF"
+               android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:textSize="25dp"
+                tools:ignore="InvalidId"></TextView>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:background="#c0c0c0"
+                android:layout_marginTop="10dp"
+                style="@style/AppTheme"
+
+                />
+
+        </LinearLayout>
+
+
+    </androidx.cardview.widget.CardView>
+
+
+</androidx.core.widget.NestedScrollView>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/cabackground"
+    android:layout_height="match_parent"
+    tools:context=".Food_Module.FOOD">
+
+
+    <Button
+        android:id="@+id/selectlocation_id"
+        android:layout_width="250dp"
+        android:layout_marginTop="200dp"
+
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="80dp"
+        android:textStyle="bold"
+        android:textSize="17dp"
+        android:textColor="#333fff"
+        android:text="click for your location"
+        tools:layout_editor_absoluteX="30dp"
+        tools:layout_editor_absoluteY="40dp" />
+
+
+    <AutoCompleteTextView
+        android:id="@+id/select_destination_id"
+        android:layout_width="250dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="90dp"
+        android:textStyle="bold"
+        android:textSize="17dp"
+        android:textColor="#333fff"
+
+
+        android:completionThreshold="1"
+        android:dropDownAnchor="@id/text_view_countries"
+        android:hint="select Destination point"
+        android:popupBackground="@color/colorAccent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/text_view_countries"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="16dp"
+        android:textSize="20sp" />
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:text="Book Now"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="10dp"
+        android:id="@+id/book_cab_id"/>
+
+
+
+
+
+
+
+
+
+
+
+
+</LinearLayout>
