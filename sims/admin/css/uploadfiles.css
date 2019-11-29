@@ -1,0 +1,123 @@
+input[type="file"] {
+  display: block;
+}
+.imageThumb {
+  max-height: 75px;
+  border: 2px solid;
+  padding: 1px;
+  cursor: pointer;
+}
+.pip {
+  display: inline-block;
+  margin: 10px 10px 0 0;
+}
+.remove {
+  display: block;
+  background: #444;
+  border: 1px solid black;
+  color: white;
+  text-align: center;
+  cursor: pointer;
+}
+.remove:hover {
+  background: white;
+  color: black;
+}
+@media (max-width: 1960px)
+{
+.form-control
+{
+  margin-top: 20px;
+  border-radius: 5%;
+}
+label
+{
+  margin-top: 20px;
+}
+}
+@media (max-width: 960px)
+{
+.form-control
+{
+  margin-top: 0px;
+  border-radius: 5%;
+}
+label
+{
+  margin-top: 0px;
+}
+}
+
+
+#drop-zone {
+  width: 100%;
+  height: 100%;
+  border: 2px dashed rgba(0, 0, 0, .3);
+  border-radius: 5px;
+  font-family: Arial;
+  text-align: center;
+  font-size: 20px;
+  color: #7E7E7E;
+  box-sizing: content-box;
+  margin-top: 20px;
+}
+#drop-zone input {
+  position: absolute;
+  cursor: pointer;
+  left: 0px;
+  top: 0px;
+  opacity: 0;
+}
+
+/*Important*/
+
+#drop-zone.mouse-over {
+  border: 3px dashed rgba(0, 0, 0, .3);
+  color: #7E7E7E;
+}
+/*If you dont want the button*/
+
+#clickHere {
+  display: inline-block;
+  cursor: pointer;
+  color: white;
+  font-size: 17px;
+  width: 150px;
+  border-radius: 4px;
+  background-color: #990134;
+  padding: 10px;
+}
+#clickHere:hover {
+  background-color: #990134;
+}
+#filename {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: 14px;
+  line-height: 1.5em;
+  text-align: left;
+}
+#filename div {
+border: 1px solid #eee;
+    
+    margin: 10px;
+    padding: 5px;
+    border-radius: 5%;
+
+  }
+.file-preview {
+  background: #ccc;
+  border: 5px solid #fff;
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.5);
+  display: inline-block;
+  width: 60px;
+  height: 60px;
+  text-align: center;
+  font-size: 14px;
+  margin-top: 5px;
+}
+.closeBtn:hover {
+  color: red;
+  display:inline-block;
+}
+}

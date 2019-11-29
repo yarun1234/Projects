@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "234782812004",
+    "firebase_url": "https://sumeru2-4c5f5.firebaseio.com",
+    "project_id": "sumeru2-4c5f5",
+    "storage_bucket": "sumeru2-4c5f5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:234782812004:android:060f0c413d16ce7f",
+        "android_client_info": {
+          "package_name": "com.example.sumeru"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "234782812004-vmbhu8nvd28tnv3cf14n40d2ovpta43n.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.sumeru",
+            "certificate_hash": "4899473f959c97b826bd2a9aa1985a0a2dd4d8a8"
+          }
+        },
+        {
+          "client_id": "234782812004-dontedufj9qu7g4j3jgc371gff8g93ot.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBGQEalhHQjQk3LuJFPxeUkwsWqdRjqx6g"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "234782812004-dontedufj9qu7g4j3jgc371gff8g93ot.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
